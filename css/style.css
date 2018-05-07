@@ -1,0 +1,119 @@
+/*******************************************
+           GENERAL
+********************************************/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{ 
+	font-family: 'Open Sans', 'sans-serif';
+	font-size: 14px;
+	line-height: 1.6;	
+}
+a {
+	text-decoration: none;
+}
+img{
+	width: 100%;
+}
+/* Header */
+.main-header{
+	border-bottom: 4px solid gray;
+	overflow: hidden;
+	padding-bottom: 10px;
+	text-align: center;	
+}
+#logo{
+	font-size: 4.8em;
+	color: #fff;
+	font-family: 'Changa One', 'cursive';
+	text-shadow: 1.5px -1.5px 1px #ffa64d;   
+}
+.name{
+	color: gray;
+	font-weight: normal;
+	margin-left: 5%;	
+	}
+.title{
+	font-weight: normal;
+	margin-left: 5%;	
+	}
+/* Content */
+h3{
+   font-size: 2.5em;
+   margin: 10px 25px 0;
+   font-weight: normal;
+   color: gray;   
+}
+.project{
+	color: #000;
+	text-align: center;
+	font-size: 3em;
+}
+.para{
+	text-align: center;
+	color: gray;
+	font-size: 1em;
+	
+}
+#gallery{
+  list-style:none;
+  overflow: hidden;  
+}
+#gallery li{
+	float: left;
+	width: 100%;
+	margin: 2.5%;   	
+}
+#gallery li{
+	list-style: none;
+}
+.wrap{
+	margin-left: 1em;
+	margin-right: 1em;
+}
+.portfolio{
+	margin-bottom: 20px;
+}
+.banner{
+	margin-top: 15px;
+	padding-top: 25px;	
+}
+
+/*******************************************
+           media queries
+********************************************/
+@media screen and (min-width: 768px){
+	#logo{
+		float: left;
+		margin: 5px;	
+	}
+    .name{
+		font-size: 4.2em;
+		float: right;
+	}
+	.title{
+		float: right;
+		clear: right;	
+	}
+	#gallery li{
+	 width: 45%;
+	 
+ }   
+}
+
+@media screen and (min-width: 1024px){
+
+#gallery li{
+	width: 28.333%;
+}
+.wrap{
+	max-width: 90%;
+	margin-left:  auto;
+    margin-right:  auto;
+    margin-bottom: 0;
+    margin-top: 30px;
+	padding-top: 20px;
+ }
+    
+}
