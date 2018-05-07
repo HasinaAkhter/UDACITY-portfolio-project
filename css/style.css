@@ -32,10 +32,12 @@ img{
 .name{
 	color: gray;
 	font-weight: normal;
+	font-size: 2.6em;
 	margin-left: 5%;	
 	}
 .title{
 	font-weight: normal;
+	font-size: 2em;
 	margin-left: 5%;	
 	}
 /* Content */
