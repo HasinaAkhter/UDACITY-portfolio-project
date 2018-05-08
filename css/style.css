@@ -50,7 +50,7 @@ h3{
 .project{
 	color: #000;
 	text-align: center;
-	font-size: 3em;
+	font-size: 2em;
 }
 .para{
 	text-align: center;
@@ -101,7 +101,10 @@ h3{
 	#gallery li{
 	 width: 45%;
 	 
- }   
+ }  
+	.project{
+	  font-size: 3em;
+	}
 }
 
 @media screen and (min-width: 1024px){
